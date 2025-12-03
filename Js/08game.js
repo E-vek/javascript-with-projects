@@ -5,7 +5,7 @@ let wins = parseInt(localStorage.getItem('wins')) || 0;
             updateStats();
         });
 
-        function playGame(playerChoice) {
+        function playGame(playerChoice){
             const choices = ['rock', 'paper', 'scissors'];
             const computerChoice = choices[Math.floor(Math.random() * choices.length)];
 
