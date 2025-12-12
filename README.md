@@ -1,1 +1,1 @@
-Learning JavaScript from youtube by creating interactive add-to-cart system.
+Learning JavaScript from youtube by creating interactive Projets like games and amazon add to cart system.
