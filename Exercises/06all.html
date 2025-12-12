@@ -8,16 +8,23 @@
 <body>
     <script>
         // 0-6a. Write a JavaScript program that greets the user based on the current time.
-        const hour = 10;
-        if (hour >=6 && hour <12){
-            console.log("Good morning");
-        }else if (hour >=13 && hour <17){
-            console.log("Good afternoon");
-        } else {
-            console.log("Good Night");
+        // const hour = 14;
+        // const name = `Vivek`;
+        // if (hour >=6 && hour <12){
+        //     console.log(`Good morning${name}`);
+        // }else if (hour >=13 && hour <17){
+        //     console.log(`Good afternoon  ${name}`);
+        // } else {
+        //     console.log(`Good Night ${name}`);
+        // }
+
+        const age = 10;
+        const isHoliday= true
+        if((age <= 6 || age >= 65) && !isHoliday){
+            console.log("Discount")
+        }else{
+            console.log("No-Discount")
         }
-
-
     </script>
 </body>
 </html>
